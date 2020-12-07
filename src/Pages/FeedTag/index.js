@@ -1,0 +1,1 @@
+export {default as FeedTag} from './FeedTag'

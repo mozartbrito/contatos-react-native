@@ -17,15 +17,26 @@ const estilo = StyleSheet.create({
         borderColor: '#cccccc',
         borderRadius: 7,
         backgroundColor: '#FFFFFF',
-        alignItems: 'center',
         justifyContent: 'center',
         marginTop: 12,
-        marginBottom: 20
+        marginBottom: 20,
+        alignItems:"center",
+        padding: 20
     },
     imagem: {
-        width: alturaCard * 0.8,
-        height: alturaCard  * 0.8,
-        resizeMode: 'cover'
+        width: largura * 0.4,
+        height: largura * 0.4,
+        borderRadius: largura * 0.5,
+        resizeMode: 'cover',
+        marginBottom: 20
+    },
+    info: {
+        width: "100%",
+        alignItems: "center"
+    },
+    nome: {
+        fontWeight: "bold",
+        textTransform: "capitalize"
     }
 
 })

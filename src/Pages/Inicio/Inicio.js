@@ -11,7 +11,7 @@ const NavegacaoTabs = createBottomTabNavigator();
 const Inicio = ({route, navigation}) => {
     return (
         <NavegacaoTabs.Navigator>
-            <NavegacaoTabs.Screen name="Feed" component={Feed} />
+            <NavegacaoTabs.Screen name="Feed" component={Feed} navigation={navigation}/>
             <NavegacaoTabs.Screen name="Usuarios" component={Usuarios} />
             <NavegacaoTabs.Screen name="FeedTag" component={FeedTag} pa />
         </NavegacaoTabs.Navigator>

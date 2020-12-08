@@ -7,6 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import {Login} from './src/Pages/Login'
 import {Inicio} from './src/Pages/Inicio'
+import {Usuario} from './src/Pages/Usuario'
 
 const Navegacao = createStackNavigator();
 
@@ -23,6 +24,7 @@ export default function App() {
           }}
         />
         <Navegacao.Screen name="Inicio" component={Inicio} />
+        <Navegacao.Screen name="Usuario" component={Usuario} />
       </Navegacao.Navigator>
     </NavigationContainer> 
   );

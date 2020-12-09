@@ -30,10 +30,11 @@ const Login = ({navigation}) => {
 
 
     return(
-        <ImageBackground 
+        /* <ImageBackground 
         source={require('../../../assets/images/bg-water.jpg')}
         style={estilo.container}
-        >
+        > */
+        <View style={estilo.container}>
             <View style={estilo.imagem}>
                 <Image 
                     source={require('../../../assets/images/logo.png')}
@@ -64,7 +65,7 @@ const Login = ({navigation}) => {
                     <Text style={estilo.textoCriar}>Criar conta</Text>
                 </TouchableOpacity>
             </View>
-        </ImageBackground>
+            </View>
     )
 }
 

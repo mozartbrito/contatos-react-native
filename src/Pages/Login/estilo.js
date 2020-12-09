@@ -6,11 +6,12 @@ const estilo = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#e9e9e9'
+        backgroundColor: '#fff'
     },
     logo: {
-        width: 150,
-        height: 88
+        width: 220,
+        height: 220,
+        resizeMode: "contain"
     },
     inputs: {
         width: '80%',
@@ -21,15 +22,15 @@ const estilo = StyleSheet.create({
         justifyContent: 'center'
     },
     input: {
-        backgroundColor: '#ffffff',
+        backgroundColor: '#efefef',
         padding: 10,
         marginBottom: 10,
         borderRadius: 7
     },
     botaoEntrar: {
-        backgroundColor: '#f7941e',
+        backgroundColor: '#3498db',
         padding: 10,
-        marginBottom: 10,
+        //marginBottom: 10,
         borderRadius: 7, 
         textAlign: 'center',
         alignItems: 'center',
@@ -50,7 +51,7 @@ const estilo = StyleSheet.create({
         justifyContent: 'center'
     },textoCriar: {
         fontWeight: 'bold',
-        color: '#fff'        
+        color: '#3498db'        
     },
     textoMensagem: {
         color: '#d63031',

@@ -5,11 +5,17 @@ import estilo from './estilo';
 
 
 const Cabecalho = ({nomeUsuario, emailUsuario, fotoUsuario, idUsuario, navigation}) => {
+    const dadosUsuario = {
+        nomeUsuario,
+        emailUsuario,
+        fotoUsuario,
+        idUsuario
+    }
     return (
 
         <TouchableOpacity 
             style={estilo.cabecalho}
-            onPress={() => navigation.navigate('Usuario', {idUsuario})}
+            onPress={() => navigation.navigate('Usuario', {dadosUsuario} )}
         >
             <Image
                 source={{uri: fotoUsuario}}
